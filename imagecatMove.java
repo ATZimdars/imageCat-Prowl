@@ -11,7 +11,7 @@ public class imagecatMove
 			try 
 			{
 				input = new FileInputStream(json);
-				output = new FileOutputStream(index);
+				output = new FileOutputStream(index,true);
 				byte[] buf = new byte[1024];
 				int length;
 				while ((length = input.read(buf)) > 0)
