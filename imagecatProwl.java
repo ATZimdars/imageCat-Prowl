@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class copy 
+public class imagecatProwl 
 {
 	public static void main(String[] args) 
 			throws IOException
