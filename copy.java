@@ -7,11 +7,11 @@ public class copy
 	{
 //Json File Location
 		
-		final File jsonIn = new File("/Users/azimdars/moveTest/testTwo.txt");
+		final File jsonIn = new File("/");
 		
 //Index File Location
 		
-		final File indexIn = new File("/Users/azimdars/moveTest/testOne.txt");
+		final File indexIn = new File("/");
 		
 		if (imagecatMove.checkJson(jsonIn)==true && imagecatMove.checkIndex(indexIn)==true)
 		{
